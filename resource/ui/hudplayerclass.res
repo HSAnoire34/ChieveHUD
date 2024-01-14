@@ -19,8 +19,6 @@
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"21"	[$WIN32]
 		"ypos"			"r69"	[$WIN32]
-		"xpos"			"57"	[$X360]
-		"ypos"			"r110"	[$X360]
 		"zpos"			"-10"
 		"wide"			"75"
 		"tall"			"75"
@@ -35,8 +33,6 @@
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r47"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r49"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
@@ -53,8 +49,6 @@
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
 		"tall"			"55"
@@ -69,8 +63,6 @@
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"99999"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"
@@ -87,13 +79,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-1"		[$WIN32]
+		"xpos"			"r0"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"109"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -109,8 +99,8 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"r214"	[$WIN32]
+		"xpos"			"30"	[$WIN32]
+		"ypos"			"r190"	[$WIN32]
 		"zpos"			"2"		
 		"wide"			"100"
 		"tall"			"200"

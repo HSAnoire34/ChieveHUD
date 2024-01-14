@@ -303,7 +303,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"350"
+		"ypos"		"370"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"35"
@@ -366,7 +366,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-148"
+		"xpos"				"70"
 		"ypos"				"r96"
 		"wide"				"100"
 		"tall"				"100"

@@ -339,18 +339,14 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-75"	[$WIN32]
-		"xpos"			"c-70"	[$X360]
 		"ypos"			"r31"	[$WIN32]
-		"ypos"			"r51"	[$X360]
 		"zpos"			"3"
 		"wide"			"150"	[$WIN32]
-		"wide"			"140"	[$X360]
 		"tall"			"38"	[$WIN32]
-		"tall"			"35"	[$X360]
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
+		"image"			"../HUD/tournament_panel_tan"
+		"drawcolor"		"AchiBlack"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -512,8 +508,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"c-50"
-		"ypos"			"r137"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"ypos"			"r137"
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"

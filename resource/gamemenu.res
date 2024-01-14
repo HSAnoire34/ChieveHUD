@@ -42,11 +42,25 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
-	"ConsoleButton"
+	"Console1Button"
 	{
-		"label"			""
-		"command" 		"engine toggleconsole"
-		"subimage"		"glyph_vr"
-		"tooltip" 		"#GameUI_Console"
+		"label"			"c"
+		"command"		"engine showconsole"
+		"subimage"		""
+		"tooltip"		"Console"
+	}
+	"C0nsoleButton"
+	{
+		"label"			"/"
+		"command"		"engine hud_reloadscheme"
+		"subimage"		""
+		"tooltip"		"Reload HUD"
+	}
+	"DemoUIButton"
+	{
+		"label"			"C"
+		"command"		"engine demoui"
+		"subimage"		""
+		"tooltip"		"Demo UI"
 	}
 }

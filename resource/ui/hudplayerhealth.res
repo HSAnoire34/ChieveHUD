@@ -176,8 +176,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusAnchor"
-		"xpos"			"200"
-		"ypos"			"r160"	[$WIN32]
+		"xpos"			"250"
+		"ypos"			"r50"
 		"zpos"			"5"
 		"wide"			"10"
 		"tall"			"10"

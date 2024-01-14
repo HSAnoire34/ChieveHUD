@@ -6,14 +6,14 @@
 		"fieldName"		"Currency"
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"TanLight"
-		"xpos"			"11"
+		"xpos"			"20"
 		"ypos"			"57"
 		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%currency%"
 	}	
 	
@@ -23,14 +23,14 @@
 		"fieldName"		"CurrencyShadow"
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"AchiOrange"
-		"xpos"			"12"
+		"xpos"			"21"
 		"ypos"			"58"
 		"zpos"			"3"
 		"wide"			"80"
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%currency%"
 	}	
 	
