@@ -1,5 +1,4 @@
 #base "huditemeffectmeter_demoman.res"
-
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	HudItemEffectMeter
@@ -9,11 +8,13 @@
 		"wide"			"f0"
 		"tall"			"f0"
 	}
+	
 	ItemEffectMeterBG
 	{
 		"xpos"	""
 		"ypos"	"12121212"
 	}
+	
 	ItemEffectMeterCount
 	{
 		"xpos"	"r55"
@@ -26,6 +27,7 @@
 		"xpos"	"-232323"
 		"ypos"
 	}
+	
 	ItemEffectMeterCountImage
 	{
 		"ControlName"			"CExLabel"
@@ -42,12 +44,15 @@
 		"font"					"Custicons12"
 		"fgcolor"				"TanLight"
 		"pin_to_sibling"		"ItemEffectMeterCount"
+	
 	}
 	ItemEffectMeterCountShadow
+	
 	{
 		"xpos"	"12121212"
 		"ypos"	""
 	}
+	
 	"BoxOfHeads"
 	{
 		"xpos"	"r46"
@@ -55,6 +60,7 @@
 		"wide"	"49"
 		"tall"	"16"
 	}
+	
 	"BadBox2"
 	{
 		"ControlName"	"EditablePanel"

@@ -25,6 +25,20 @@
 		"image"			""
 		"scaleImage"		"1"
 	}
+	"1MainBackground"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"1MainBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-12"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/bggravel"
+		"scaleImage"		"1"
+	}
 	"OnYourWayLabel" [$WIN32]
 	{
 		"ControlName"		"CExLabel"

@@ -12,7 +12,7 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"i"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
@@ -20,7 +20,7 @@
 	}
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"j"
 		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
@@ -28,7 +28,7 @@
 	}
 	"RequestCoachButton"
 	{
-		"label"			""
+		"label"			"l"
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
@@ -36,7 +36,7 @@
 	}
 	"ReportPlayerButton"
 	{
-		"label"			""
+		"label"			"k"
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"

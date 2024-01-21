@@ -1022,6 +1022,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"HudFontSmallestTF2"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		"HudFontSmallestShadow"
 		{
 			"1"
@@ -1061,7 +1072,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				tall		"47"
+				"tall"		"47"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
