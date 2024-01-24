@@ -2,10 +2,10 @@
 
 "Resource/UI/HudItemEffectMeter_Pyro.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"xpos"	"0"
-		"ypos"	"0"
+		"ypos"	"-15"
 	}
 }

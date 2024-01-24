@@ -86,17 +86,15 @@
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"c-38"
-			"xpos_hidef"		"c25"
 			"ypos"			"245"
-			"ypos_hidef"		"245"
-			"ypos_lodef"		"215"
 			"zpos"			"0"
 			"wide"			"266"
-			"tall"			"48"
+			"tall"			"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
 			"scaleImage"		"1"	
+			"paintborder"		"0"
 		}
 
 		"FreezeLabel"
@@ -239,7 +237,7 @@
 			"ypos"			"160"
 			"zpos"			"0"
 			"wide"			"256"
-			"tall"			"33"
+			"tall"			"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
@@ -248,10 +246,22 @@
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 				
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		""				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	""	
 		}
-		
+		"FreezePanelBGBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"FreezePanelBGBG"
+			"xpos"			"8"
+			"ypos"			"160"
+			"zpos"			"-1"
+			"wide"			"256"
+			"tall"			"30"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"AchiBlack"
+		}
 		"FreezeLabel"
 		{	
 			"ControlName"		"Label"
