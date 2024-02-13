@@ -38,8 +38,8 @@
 			"fieldName"		"Gradient"
 			"xpos"		"0"
 			"ypos"		"0"
-			"wide"		"p0.5"
-			"tall"		"f6"
+			"wide"		""
+			"tall"		""
 			"zpos"	"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -47,9 +47,9 @@
 			"proportionaltoparent"	"1"
 			"scaleimage"	"1"
 			"mouseinputenabled"	"0"
-			"alpha"		"100"
+			"alpha"		"0"
 
-			"image"		"gradient_pure_black"
+			"image"		""
 		}
 
 		"BGPanel"
@@ -63,7 +63,8 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"bgcolor_override"		"AchiBlack"
+			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
 		}
 
@@ -78,7 +79,7 @@
 			"tall"			"p1"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"OuterShadowBorder"
+			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
 		}
 
@@ -110,6 +111,8 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedBgColor_override"		"AchiOrange"
+			"defaultBgColor_override"	"0 0 0 50"
 
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
@@ -614,8 +617,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"AchiOrange"
+			"defaultBgColor_override"	"0 0 0 50"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -673,8 +676,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 150"
-			"defaultBgColor_override"	"192 28 0 50"
+			"armedBgColor_override"		"AchiOrange"
+			"defaultBgColor_override"	"0 0 0 50"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -732,8 +735,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
+		"armedBgColor_override"		"TannishOrange"
+			"defaultBgColor_override"	"60 60 60 200"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -790,8 +793,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"CreditsGreen"
-			"defaultBgColor_override"	"GreenSolid"
+			"armedBgColor_override"		"TannishOrange"
+			"defaultBgColor_override"	"20 20 20 50"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
