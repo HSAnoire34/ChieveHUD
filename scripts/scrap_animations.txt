@@ -1,0 +1,11 @@
+// #base "scripts/hudanimations_custom.txt"
+
+event DamagedPlayer
+{
+	RunEvent HudScopeRemoval 0.0 
+}
+
+event HudScopeRemoval
+{
+	Animate HudScope			Position	"99999"		Linear 0.0 0.0
+}
