@@ -100,8 +100,8 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"-30" // NHB
-		"ypos"			"r235"
+		"xpos"			"0" // NHB
+		"ypos"			"r240"
 		"zpos"			"0"		
 		"wide"			"240"
 		"tall"			"240"
@@ -121,7 +121,7 @@
 			"angles_x" "0"
 			"angles_y" "172"
 			"angles_z" "0"
-			"origin_x" "200"
+			"origin_x" "100"
 			"origin_y" "0"
 			"origin_z" "-60"
 			"frame_origin_x"	"0"
@@ -360,6 +360,7 @@
         "tall"                "12"
         "image"                "replay/thumbnails/numbers"
         "scaleImage"        "1"
+		"brighttext"		"1"
     }
 	"speedometerLabel"
 	{
@@ -376,6 +377,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"labelText"			"HU/s"
+			"fgcolor_override"	"G_HealthValue"
 			"textAlignment"		"center"
 			"pin_to_sibling"	"speedometer"
 	}

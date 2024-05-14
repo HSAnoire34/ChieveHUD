@@ -4,50 +4,31 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"-1"
-		"ypos"			"30"
-		"zpos"			"0"
-		"wide"			"10"
-		"tall"	 		"10"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"62"				// pixels inside the image
-		"src_corner_width"		"4"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
-	}
-	"TargetIDBackGround"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"TargetIDBackGround"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"320"
-		"tall"	 		"36"
+		"wide"			"252"
+		"tall"	 		"50"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"BgColor_Override"		"46 43 42 200"
-		"PaintBackgroundType"	"0"
+		"image"			"replay/thumbnails/redshit"
+		"scaleImage"		"1"
+		"teambg_2"		"replay/thumbnails/redshit"
+		"teambg_3"		"replay/thumbnails/blushit"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"6"	
 	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"11110"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -56,20 +37,19 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
+		"image"		"replay/thumbnails/blushit"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"
 			
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_height" 	"6"
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"11110"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"252"
@@ -78,14 +58,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
+		"image"		"replay/thumbnails/redshit"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"
 			
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_height" 	"6"
 	}
 	
 	"TargetNameLabel"
@@ -93,6 +72,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudFontSmall"
+		"font_minmode"	"HudFontSmallest"
 		"xpos"			"8"
 		"ypos"			"5"
 		"zpos"			"1"
@@ -112,8 +92,11 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"FontStoreOriginalPrice"
+		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
+		"xpos_minmode"	"30"
 		"ypos"			"17"	[$WIN32]
+		"ypos_minmode"	"12"	[$WIN32]
 		"ypos"			"22"	[$X360]
 		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
@@ -133,7 +116,9 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
+		"xpos_minmode"	"0"
 		"ypos"			"2"
+		"ypos_minmode"	"0"
 		"wide"			"55"
 		"tall"			"32"
 		"visible"		"0"
@@ -150,7 +135,9 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"45"
+		"xpos_minmode"	"40"
 		"ypos"			"20"
+		"ypos_minmode"	"15"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -165,7 +152,9 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"10"
+		"xpos_minmode"	"30"
 		"ypos"			"20"
+		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -179,9 +168,9 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
-		"xpos"			"50"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"-5"
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
@@ -191,7 +180,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
-			"xpos"			"111110"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"10"
@@ -239,6 +228,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
+			"font_minmode"	"DefaultVerySmall"
 			"xpos"			"0"
 			"ypos"			"22"
 			"zpos"			"1"
@@ -259,6 +249,7 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
+		"xpos_minmode"	"6"
 		"ypos"			"6"	[$WIN32]
 		"ypos"			"0"	[$X360]
 		"zpos"			"99"

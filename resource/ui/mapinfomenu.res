@@ -111,11 +111,6 @@
 		"command"		"continue"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"White"
-		"defaultfgcolor_override" "TanLight"
-		"defaultbgcolor_override" "AchiBlack"
-		"armedfgcolor_override" "AchiOrange"
-		"armedbgcolor_override" "Black"
 	}
 	
 	"MapInfoWatchIntro" [$WIN32]
@@ -138,14 +133,9 @@
 		"command"		"intro"
 		"default"		"1"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"White"
-		"defaultfgcolor_override" "TanLight"
-		"defaultbgcolor_override" "AchiBlack"
-		"armedfgcolor_override" "AchiOrange"
-		"armedbgcolor_override" "Black"
 	}
 	
-	"MapInfoBack" [$WIN32]
+	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
@@ -164,11 +154,6 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"default"		"1"
-		"font"			"HudFontSmallBold"
-		"defaultfgcolor_override" "TanLight"
-		"defaultbgcolor_override" "AchiBlack"
-		"armedfgcolor_override" "AchiOrange"
-		"armedbgcolor_override" "Black"
 	}
 	"bgbld"
 	{

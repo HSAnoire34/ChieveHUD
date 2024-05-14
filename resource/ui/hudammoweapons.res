@@ -180,4 +180,21 @@
 		"defaultBgColor_override" "G_XPBar"
 		"alpha" "0"
 	}	
+	"AmmoLowBG"
+	{
+		"ControlName"	"CexButton"
+		"fieldName"		"AmmoLowBG"
+		"pin_to_sibling" "AmmoNoClip"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"-4"
+		"wide"			"120"
+		"tall"			"46"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackgroundType"	"1"
+		"labeltext"	""
+		"defaultBgColor_override" "G_ItemMeterBg"
+		"alpha" "0"
+	}
 }

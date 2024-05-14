@@ -697,7 +697,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"160"
+		"xpos"			"cs-1.0-120"
 		"ypos"			"r38"
 		"zpos"			"6"
 		"wide"			"150"
@@ -711,18 +711,13 @@
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"font"			"HudFontSmallBold"
-		"fgcolor_override" "200 80 60 255"
-		"defaultfgcolor_override" "TanLight"
-		"defaultbgcolor_override" "AchiBlack"
-		"armedfgcolor_override" "AchiOrange"
-		"armedbgcolor_override" "Black"
 	}
 	
 	"EditLoadoutButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"c115"
+		"xpos"			"cs-1.0+270"
 		"ypos"			"r38"
 		"zpos"			"6"
 		"wide"			"150"
@@ -736,10 +731,6 @@
 		"textAlignment"	"center"
 		"Command"		"openloadout"
 		"font"			"HudFontSmallBold"
-		"defaultfgcolor_override" "TanLight"
-		"defaultbgcolor_override" "AchiBlack"
-		"armedfgcolor_override" "AchiOrange"
-		"armedbgcolor_override" "Black"
 	}
 
 	"ResetButton" [$WIN32] 

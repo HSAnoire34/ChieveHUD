@@ -28,20 +28,20 @@ Scheme
 		"G_PanelBg"				"0 0 0 38" // Panel color
 		"G_OpaquePanelBg"		"0 0 0 255" // Opaque Panel color
 		"G_Warning"				"244 114 43 255" // Warning color
-		"G_HealthValue"			"210 199 199 255" // Health value color
-		"G_Overheal"			"210 199 199 255" // Overhealed health value color
-		"G_LowHealthValue"		"210 199 199 255" // Low health value color
-		"G_AmmoClipValue"		"210 199 199 255" // Ammo in clip value color
-		"G_AmmoReserveValue"	"210 199 199 255" // Ammo in reserve value color
+		"G_HealthValue"			"245 229 193 255" // Health value color
+		"G_Overheal"			"245 229 193 255" // Overhealed health value color
+		"G_LowHealthValue"		"245 229 193 255" // Low health value color
+		"G_AmmoClipValue"		"245 229 193 255" // Ammo in clip value color
+		"G_AmmoReserveValue"	"245 229 193 255" // Ammo in reserve value color
 		"G_LowAmmo"				"244 114 43 255" // Low ammo color
-		"G_MetalValue"			"210 199 199 255" // Metal color
-		"G_MetalIcon"			"210 199 199 255" // Metal icon color
-		"G_HeadsValue"			"210 199 199 255" // Heads value color
+		"G_MetalValue"			"245 229 193 255" // Metal color
+		"G_MetalIcon"			"245 229 193 255" // Metal icon color
+		"G_HeadsValue"			"245 229 193 255" // Heads value color
 		"G_HeadsLabel"			"244 114 43 255" // Heads value icon color
-		"G_KillstreakValue"		"210 199 199 255" // Killstreak value color
-		"G_KillstreakIcon"		"210 199 199 255" // Killstreak icon color
-		"G_StickyColor"					"210 199 199 255" // Stickybomb color
-		"G_StickyIconColor"				"210 199 199 255" // Stickybomb icon color
+		"G_KillstreakValue"		"245 229 193 255" // Killstreak value color
+		"G_KillstreakIcon"		"245 229 193 255" // Killstreak icon color
+		"G_StickyColor"					"245 229 193 255" // Stickybomb color
+		"G_StickyIconColor"				"245 229 193 255" // Stickybomb icon color
 		"G_CustomTargetID" 				"0 0 0 255" // Custom target id bg color
 		"G_CustomBuildingStatusBg" 		"0 0 0 145" // Custom building status bg color
 		"G_TargetHealthValue" 			"255 255 255 255" // Target ID health value color

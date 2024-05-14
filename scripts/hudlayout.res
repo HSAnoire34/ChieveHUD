@@ -358,12 +358,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"70"
-		"ypos"				"r96"
-		"xpos_minmode"		"c-154"
-		"ypos_minmode"		"r90"
-		"wide"				"100"
-		"tall"				"100"
+		"xpos"				"cs-1.0-100"
+		"ypos"				"r15"
+		"wide"				"110"
+		"tall"				"15"
 		"visible" 			"0"
 		"enabled" 			"1"
 	}

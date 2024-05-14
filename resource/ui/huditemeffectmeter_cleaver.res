@@ -10,7 +10,7 @@
 		"ypos"			"0"	[$WIN32]
 		"wide"			"f0"
 		"tall"			"f0"
-		"MeterFG"		"White"
+		"MeterFG"		"G_HealthValue"
 		"MeterBG"		"Gray"
 	}
 	
@@ -38,7 +38,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"cs-0.5"
-		"ypos"					"r118"
+		"ypos"					"c119"
 		"zpos"					"3"
 		"wide"					"128"
 		"tall"					"15"
@@ -51,7 +51,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font_minmode"					"Default"
+		"fgcolor"				"G_HealthValue"
 		"font"					"HudFontSmallestBold"
 	}
 	"ItemEffectMeter"

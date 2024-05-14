@@ -246,13 +246,13 @@ Scheme
 		Econ.Button.ArmedBgColor							"AchiOrange"
 		Econ.Button.ArmedFgColor							"TanLight"
 		Econ.Button.DepressedBgColor						"AchiOrangeless"
-		Econ.Button.DepressedFgColor						"Black"
+		Econ.Button.DepressedFgColor						"TanLight"
 
 		Econ.Button.PresetDefaultColorFg					"TanLight"
 		Econ.Button.PresetArmedColorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
 
-		Econ.Button.PresetDefaultColorBg					"Black"
+		Econ.Button.PresetDefaultColorBg					"AchiOrange"
 		Econ.Button.PresetArmedColorBg						"AchiOrange"
 		Econ.Button.PresetDepressedColorBg					"AchiOrangeless"
 
@@ -261,13 +261,13 @@ Scheme
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
+		Button.BgColor					"AchiBlack"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.ArmedBgColor				"AchiOrange"
 		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.SelectedBgColor			"AchiOrange"
+		Button.DepressedTextColor		"TanLight"
+		Button.DepressedBgColor			"AchiOrangeless"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"

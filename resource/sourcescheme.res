@@ -51,9 +51,9 @@ Scheme
 		Button.TextColor				"TFDarkBrown"
 		Button.BgColor					"TFTanLight"
 		Button.ArmedTextColor			"TFDarkBrown"
-		Button.ArmedBgColor				"TFTanBright"
+		Button.ArmedBgColor				"AchiOrange"
 		Button.DepressedTextColor		"TFDarkBrown"
-		Button.DepressedBgColor			"TFTanLight"	
+		Button.DepressedBgColor			"AchiOrange"	
 		Button.FocusBorderColor			"TransparentBlack"
 		
 		CheckButton.TextColor			"TFTextBright"

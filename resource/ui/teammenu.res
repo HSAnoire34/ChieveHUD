@@ -188,10 +188,6 @@
 		"brighttext"	"0"
 		"command"		"cancelmenu"
 		"font"			"HudFontSmallBold"
-		"defaultfgcolor_override" "TanLight"
-		"defaultbgcolor_override" "AchiBlack"
-		"armedfgcolor_override" "AchiOrange"
-		"armedbgcolor_override" "Black"
 	}
 	
 	"TeamMenuSelect"
@@ -569,7 +565,7 @@
 	}
 	"teamate1"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CExButton"
 		"fieldName"		"teamate1"
 		"xpos"			"c5"
 		"ypos"			"c40"
@@ -577,8 +573,11 @@
 		"wide"			"105"
 		"tall"			"70"
 		"visible"		"1"
-		"bgcolor_override" "TanLight"
-		"paintbackgroundtype" "2"
+		"labelText"		"Random"
+		"font"			"HudFontMediumSmallBold"
+		"textAlignment"	"Center"
+		"defaultfgcolor_override"	"Black"
+		"defaultbgcolor_override"	"TanLight"
 	}
 	"teamate2"
 	{
@@ -595,7 +594,7 @@
 	}
 	"teamate3"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CExButton"
 		"fieldName"		"teamate3"
 		"xpos"			"c-110"
 		"ypos"			"c40"
@@ -603,7 +602,9 @@
 		"wide"			"105"
 		"tall"			"70"
 		"visible"		"1"
-		"bgcolor_override" "Black"
+		"defaultbgcolor_override" "Black"
+		"labelText"		"Spectator"
+		"font"			"HudFontMediumSmallBold"
 		"paintbackgroundtype" "2"
 	}
 	"teamate4"

@@ -6,14 +6,14 @@
 		"fieldName"		"Currency"
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"TanLight"
-		"xpos"			"20"
-		"ypos"			"57"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"80"
-		"tall"			"45"
+		"wide"			"110"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"	
 		"labelText"		"%currency%"
 	}	
 	
@@ -23,32 +23,16 @@
 		"fieldName"		"CurrencyShadow"
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"AchiOrange"
-		"xpos"			"21"
-		"ypos"			"58"
+		"xpos"			"1"
+		"ypos"			"1"
 		"zpos"			"3"
-		"wide"			"80"
-		"tall"			"45"
+		"wide"			"110"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"	
 		"labelText"		"%currency%"
-	}	
-	
-	"WhiteBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"15"
-		"ypos"			"70"
-		"zpos"			"1"
-		"wide"			"80"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"2"
-		"PaintBackgroundType_minmode"	"0"
-		"bgcolor_override"	"AchiBlack"
-	}	
+	}
 	
 	"GreenBG"
 	{
