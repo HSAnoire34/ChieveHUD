@@ -53,15 +53,15 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"-10"
 		"zpos"			"5"
-		"wide"			"o3.833"
-		"tall"			"35"
+		"wide"			"95"
+		"tall"			"40"
 
 		"backgroundtype"		"0"
 		"proportionaltoparent"	"1"
 			
-		"image"					"../hud/comp_round_timer"
+		"image"					"replay/thumbnails/rnb"
 		"scaleimage"			"1"
 	}
 }

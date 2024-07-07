@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay\thumbnails\hud\cart_point_neutral"
+	"$baseTexture" "vgui\replay\thumbnails\browncp"
 	"$translucent" 1
 	"$alpha" 1
 	"$vertexalpha" "1"

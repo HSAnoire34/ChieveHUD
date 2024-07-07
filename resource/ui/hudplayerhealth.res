@@ -111,8 +111,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"c-258" // HB xpos
-		"ypos"			"c112" // HB ypos
+		"xpos"			"c-308" // HB xpos
+		"ypos"			"r35" // HB ypos
 		"zpos"			"4"
 		"wide"			"30" // HB size
 		"tall"			"30" // HB size
@@ -137,22 +137,22 @@
 		"defaultBgColor_override" "G_XPBar"
 		"alpha" "0"
 	}
-	"HealthHighLowBG"
+	"HealthBRUHBG"
 	{
 		"ControlName"	"CexButton"
-		"fieldName"		"HealthHighLowBG"
+		"fieldName"		"HealthBRUHBG"
 		"pin_to_sibling" "G_PlayerStatusHealthValue"
 		"xpos"			"-2"
 		"ypos"			"-2"
 		"zpos"			"2"
 		"wide"			"120"
-		"tall"			"46"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"1"
 		"labeltext"	""
 		"defaultBgColor_override" "G_ItemMeterBg"
-		"alpha" "0"
+		"alpha"	"190"
 	}
 	"HealthHighBG"
 	{
@@ -220,8 +220,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"G_PlayerStatusHealthValue"
-		"xpos"			"c-224"
-		"ypos"			"c100"
+		"xpos"			"c-274"
+		"ypos"			"r48"
 		"zpos"			"7"
 		"wide"			"124"
 		"tall"			"50"
@@ -250,7 +250,7 @@
 		"labelText"		"%Health%"
 		"textAlignment" "center"
 		"font"			"G_FontHealth"
-		"fgcolor"		"Black"
+		"fgcolor"		"G_XPBar"
 	}
 	
 	"PlayerStatusMaxHealthValue"

@@ -10,23 +10,6 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontSmall"
 	}
-	"BadBox"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BadBox"
-		"xpos"					"33"
-		"ypos"					"119"
-		"zpos"		    "-2"
-		"wide"		    "30"
-		"tall"		    "10"
-		"autoResize"	"0"
-		"pinCorner"	    "0"
-		"visible"		"1"
-		"enabled"		"1"
-		"BgColor_Override"		"AchiBlack"
-		"PaintBackgroundType"	"2"
-		"PaintBackgroundType_minmode"	"0"
-	}
 	"AccountBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -73,7 +56,7 @@
 		"xpos"			"20"
 		"ypos"			"112"
 		"zpos"			"2"
-		"wide"			"55"
+		"wide"			"50"
 		"tall"			"26"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -84,7 +67,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallBold"
 	}
 	"AccountValueShadow"
 	{
@@ -93,7 +76,7 @@
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"2"
-		"wide"			"55"
+		"wide"			"50"
 		"tall"			"26"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -104,7 +87,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"HudFontSmallBold"
 		"fgcolor_override"	"AchiOrange"
 		"pin_to_sibling"	"AccountValue"
 	}

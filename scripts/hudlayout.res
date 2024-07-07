@@ -77,19 +77,21 @@
 		"tall"	"480"
 	}
 
-	"HudKothTimeStatus"
+	HudKothTimeStatus
 	{
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
+		"xpos"	"c-65"
 		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
-
-		"blue_active_xpos"			"16"
-
-		"red_active_xpos"			"106"
+		"wide"	"130"
+		"tall"	"60"
+		
+		"blue_active_xpos"			"0"
+		"blue_active_xpos_minmode"	"0"
+	
+		"red_active_xpos"			"70"
+		"red_active_xpos_minmode"	"70"
 	}
 
 	"HudItemEffectMeter"
@@ -226,8 +228,8 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"200"
-		"ypos"					"r202"
+		"xpos"					"115"
+		"ypos"					"r100"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -381,7 +383,7 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	"HudRoundTimer"
+	HudRoundTimer
 	{
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-20"
@@ -390,10 +392,10 @@
 		"tall"  "40"
 		"visible" "1"
 		"enabled" "1"
-
+		
 		"PaintBackgroundType"	"2"
 
-		"FlashColor" "HudIcon_Red"
+		"FlashColor" "HudIcon_Red"		
 
 		"icon_xpos"		"0"
 		"icon_ypos"		"2"

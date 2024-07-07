@@ -61,7 +61,7 @@
 		"xpos"			"4"
 		"ypos"			"160"
 		"zpos"			"3"
-		"wide"			"400"
+		"wide"			"198"
 		"tall"			"200"
 		"autoResize"	"3"
 		"pinCorner"		"0"
@@ -154,6 +154,7 @@
 		"brighttext"	"0"
 		"command"		"back"
 		"default"		"1"
+		"font"			"HudFontSmallBold"
 	}
 	"bgbld"
 	{

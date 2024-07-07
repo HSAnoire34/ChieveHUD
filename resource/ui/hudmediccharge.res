@@ -73,6 +73,24 @@
 		"pin_to_sibling"	"ChargeLabel"
 		"alpha"			"0"
 	}
+	"BadBoxInner"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BadBoxInner"
+		"xpos"		    "-2"
+		"ypos"		    "-2"
+		"zpos"		    "-6"
+		"wide"		    "120"
+		"tall"		    "46"
+		"autoResize"	"0"
+		"pinCorner"	    "0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText" 	""
+		"defaultBgColor_override" "G_ItemMeterBg"
+		"pin_to_sibling"	"ChargeLabel"
+		"alpha"			255"
+	}
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
