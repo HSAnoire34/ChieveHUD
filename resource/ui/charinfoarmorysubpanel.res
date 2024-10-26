@@ -151,7 +151,7 @@
 		"fieldName"		"DataPanel"
 		"xpos"			"c20"
 		"ypos"			"30"
-		"zpos"			"0"
+		"zpos"			"10"
 		"wide"			"270"
 		"tall"			"253"
 		"visible"		"1"

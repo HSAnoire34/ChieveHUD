@@ -272,10 +272,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"0"
+		"xpos"				"cs-0.5"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"f0"
+		"wide"				"45"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
@@ -307,7 +307,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
 			"fgcolor"		"TanLight"
-			"xpos"			"cs-0.5"
+			"xpos"			"0"
 			"ypos"			"-4"
 			"zpos"			"3"
 			"wide"			"45"
@@ -326,7 +326,7 @@
 				"tall"			"10"
 				"font"			"HudFontSmallBold"
 			}
-		}	
+		}
 	}
 	"TeamStatus"
 	{

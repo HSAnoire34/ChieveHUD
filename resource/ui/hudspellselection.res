@@ -2,17 +2,31 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"160"
+		"xpos"			"r70"
+		"ypos"			"r58"
 	}
-			
+	"BG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BG"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"-2"
+		"wide"			"100"
+		"tall"			"39"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override" "AchiBlack"
+		"PaintBackgroundType"	"2"
+	}	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"10"
-		"wide"			"80"
-		"tall"			"40"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ammo_blue_bg"
@@ -30,8 +44,8 @@
 		"xpos"			"10"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"64"
-		"tall"			"56"
+		"wide"			""
+		"tall"			""
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"spellbook_book"
@@ -60,9 +74,9 @@
 		"fieldName"		"ActionText"
 		"font"			"TFFontSmall"
 		"labelText"		"%actiontext%"
-		"textAlignment" "west"
-		"xpos"			"18"
-		"ypos"			"48"
+		"textAlignment" "center"
+		"xpos"			"-20"
+		"ypos"			"37"
 		"wide"			"100"
 		"tall"			"10"
 		"fgcolor"		"tanlight"
@@ -91,11 +105,12 @@
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"48"
-		"ypos"			"19"
+		"xpos"			"-2"
+		"ypos"			"-1"
 		"wide"			"20"
 		"tall"			"20"
 		"fgcolor"		"0 0 0 255"
+		"pin_to_sibling" "CountText"
 	}
 	
 	"CountText"
@@ -105,10 +120,11 @@
 		"font"			"HudFontMediumBigBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"46"
-		"ypos"			"17"
+		"xpos"			"-30"
+		"ypos"			"-3"
 		"wide"			"20"
 		"tall"			"19"
 		"fgcolor"		"tanlight"
+		"pin_to_sibling"	"SpellIcon"
 	}
 }

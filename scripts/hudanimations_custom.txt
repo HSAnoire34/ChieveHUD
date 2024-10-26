@@ -155,7 +155,17 @@ event HudReplayReminderIn2	// Puts the panel below the snapshot panel
 	Animate ReplayReminder		Position	"c-83 65"	Spline 0.001 0.2
 }
 //==================================================================================
+event CompetitiveGame_RestoreChatWindow
+{
+    Animate HudChat ypos 275 Accel 0 0  //Default animation
 
+    //Fix stuck animations
+    RunEvent HudHealthDyingPulseStop 0.1
+    RunEvent HudHealthBonusPulseStop 0.1
+    RunEvent HudLowAmmoPulseStop 0.1
+    RunEvent HudMedicChargedStop 0.1
+}
+//==================================================================================
 event TeamStatus_PlayerDead
 {
 	SetVisible	respawntime	1	0

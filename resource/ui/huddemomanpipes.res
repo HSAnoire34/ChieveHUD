@@ -65,13 +65,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"c+139" // 1 CSBC
-		"xpos_minmode"	"c+119" // 2 CSBC
-		"ypos"			"r32"
-		"ypos_minmode"	"c+108" // 1 BPM
-		"zpos"			"1"
-		"wide"			"180"
-		"tall"			"126"
+		"xpos"			"r170" // 1 CSBC
+		"ypos"			"r34"
+		"zpos"			"4"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"0"
 		
 		"PipeIcon"
@@ -80,11 +78,8 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"4"
 			"ypos"			"4"
-			"ypos_minmode"	"4"
 			"wide"			"0"
-			"wide_minmode"	"0"
 			"tall"			"0"
-			"tall_minmode"	"0"
 			"zpos"			"1"
 			"visible"		"0"
 			"enabled"		"0"
@@ -101,8 +96,8 @@
 			"xpos"					"125"
 			"ypos"					"0"
 			"zpos"					"2"
-			"wide"					"16"
-			"tall"					"25"
+			"wide"					""
+			"tall"					""
 			"textinsetx"			"1"
 			"textinsety"			"0"
 			"visible"				"1" // 10 CSBC
@@ -120,8 +115,8 @@
 			"xpos"					"126"
 			"ypos"					"1"
 			"zpos"					"2"
-			"wide"					"16"
-			"tall"					"25"
+			"wide"					""
+			"tall"					""
 			"textinsetx"			"1"
 			"textinsety"			"0"
 			"visible"				"1" // 10 CSBC
@@ -136,49 +131,23 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"45" // 3 CSBC
+			"xpos"			"" // 3 CSBC
 			"ypos"			"0" // 4 CSBC
 			"zpos"			"2"
-			"wide"			"80" // 5 CSBC
-			"tall"			"26"
-			"textinsetx"	"5" // 6 CSBC
-			"textinsety"	"0"
+			"wide"			"50" // 5 CSBC
+			"tall"			"50"
 			"autoResize"	"1"
 			"pinCorner"		"2"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
-			"textAlignment"	"east" // 7 CSBC
+			"textAlignment"	"center" // 7 CSBC
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"G_FontMedium" // 8 CSBC
 			"fgcolor"		"G_StickyColor"
-		}
-		
-		"NumPipesLabelDropshadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"46" // 3 CSBC
-			"ypos"			"1" // 4 CSBC
-			"zpos"			"2"
-			"wide"			"80" // 5 CSBC
-			"tall"			"26"
-			"textinsetx"	"5" // 6 CSBC
-			"textinsety"	"0"
-			"autoResize"	"1"
-			"pinCorner"		"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"%activepipes%" // 9 CSBC
-			"textAlignment"	"east" // 7 CSBC
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"font"			"G_FontMedium" // 8 CSBC
-			"fgcolor"		"G_Shadow"
-		}		
+		}	
 	}
 	
 	"NoPipesPresentPanel"
@@ -198,11 +167,8 @@
 			"fieldName"		"PipeIcon"
 			"xpos"			"26"
 			"ypos"			"16"
-			"ypos_minmode"	"12"
 			"wide"			"20"
-			"wide_minmode"	"14"
 			"tall"			"20"
-			"tall_minmode"	"14"
 			"visible"		"0"
 			"enabled"		"0"
 			"image"			"../hud/ico_stickybomb_red_faded"
@@ -216,9 +182,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"50"
-			"xpos_minmode"	"42"
 			"ypos"			"18"
-			"ypos_minmode"	"12"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -233,7 +197,6 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"G_FontMedium"
-			"font_minmode"	"G_FontMedium"
 			"font_lodef"	"G_FontMedium"
 		}
 		"NumPipesLabelDropshadow"
@@ -241,9 +204,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"51"
-			"xpos_minmode"	"43"
 			"ypos"			"19"
-			"ypos_minmode"	"13"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"20"
@@ -258,7 +219,6 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"G_FontMedium"
-			"font_minmode"	"G_FontMedium"
 			"font_lodef"	"G_FontMedium"
 			"fgcolor"		"black"
 		}			

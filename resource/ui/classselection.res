@@ -51,8 +51,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_random_inactive"
-		"image_armed"		"class_sel_sm_random_inactive"
+		"image_default"		"replay/thumbnails/random1"
+		"image_armed"		"replay/thumbnails/random1"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -133,8 +133,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_scout_inactive"
-		"image_armed"		"class_sel_sm_scout_inactive"
+		"image_default"		"replay/thumbnails/scout1"
+		"image_armed"		"replay/thumbnails/scout1"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -167,7 +167,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_scout_inactive"
+			"image"			"replay/thumbnails/scout1"
 			"scaleImage"	"1"
 		}				
 	}
@@ -193,8 +193,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_soldier_inactive"
-		"image_armed"		"class_sel_sm_soldier_inactive"
+		"image_default"		"replay/thumbnails/soldier1"
+		"image_armed"		"replay/thumbnails/soldier1"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -227,7 +227,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_soldier_inactive"
+			"image"			"replay/thumbnails/soldier1"
 			"scaleImage"	"1"
 		}				
 	}
@@ -253,9 +253,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_pyro_inactive"
-		"image_armed"		"class_sel_sm_pyro_inactive"
-		
+		"image_default"		"replay/thumbnails/pyro1"
+		"image_armed"		"replay/thumbnails/pyro1"
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "TanDark"
@@ -286,7 +285,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_pyro_inactive"
+			"image"			"replay/thumbnails/pyro"
 			"scaleImage"	"1"
 		}				
 	}
@@ -335,8 +334,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_demo_inactive"
-		"image_armed"		"class_sel_sm_demo_inactive"
+		"image_default"		"replay/thumbnails/demo1"
+		"image_armed"		"replay/thumbnails/demo1"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -368,7 +367,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_demo_inactive"
+			"image"			"replay/thumbnails/demo1"
 			"scaleImage"	"1"
 		}				
 	}	
@@ -394,8 +393,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_heavy_inactive"
-		"image_armed"		"class_sel_sm_heavy_inactive"
+		"image_default"		"replay/thumbnails/heavy1"
+		"image_armed"		"replay/thumbnails/heavy1"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -427,7 +426,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_heavy_inactive"
+			"image"			"replay/thumbnails/heavy1"
 			"scaleImage"	"1"
 		}				
 	}
@@ -453,8 +452,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_engineer_inactive"
-		"image_armed"		"class_sel_sm_engineer_inactive"
+		"image_default"		"replay/thumbnails/engi1"
+		"image_armed"		"replay/thumbnails/engi1"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -486,7 +485,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_engineer_inactive"
+			"image"			"replay/thumbnails/engi1"
 			"scaleImage"	"1"
 		}				
 	}
@@ -537,8 +536,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_medic_inactive"
-		"image_armed"		"class_sel_sm_medic_inactive"
+		"image_default"		"replay/thumbnails/medic1"
+		"image_armed"		"replay/thumbnails/medic1"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -570,7 +569,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_medic_inactive"
+			"image"			"replay/thumbnails/medic1"
 			"scaleImage"	"1"
 		}				
 	}
@@ -596,8 +595,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_sniper_inactive"
-		"image_armed"		"class_sel_sm_sniper_inactive"
+		"image_default"		"replay/thumbnails/sniper1"
+		"image_armed"		"replay/thumbnails/sniper1"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -629,7 +628,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_sniper_inactive"
+			"image"			"replay/thumbnails/sniper1"
 			"scaleImage"	"1"
 		}				
 	}
@@ -655,8 +654,8 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_spy_inactive"
-		"image_armed"		"class_sel_sm_spy_inactive"
+		"image_default"		"replay/thumbnails/spy1"
+		"image_armed"		"replay/thumbnails/spy1"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -688,7 +687,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"class_sel_sm_spy_inactive"
+			"image"			"replay/thumbnails/spy1"
 			"scaleImage"	"1"
 		}				
 	}	
