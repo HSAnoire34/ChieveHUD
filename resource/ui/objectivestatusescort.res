@@ -36,7 +36,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/cart_track_neutral_opaque"
+		"image"			"replay/thumbnails/carttrack"
 		"scaleImage"	"1"
 		
 		"if_multiple_trains"
@@ -44,14 +44,14 @@
 			"ypos"			"114"
 			"zpos"			"3"
 			"tall"			"10"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"image"			"replay/thumbnails/carttrack"
 		}
 		
 		"if_single_with_hills"
 		{
 			"ypos"			"131"
 			"tall"			"8"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"image"			"replay/thumbnails/carttrack"
 		}		
 	}
 	
@@ -194,7 +194,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"H"
+		"labelText"			""
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -543,8 +543,8 @@
 			"xpos"				"23"
 			"ypos"				"36"		
 			"zpos"				"20"
-			"wide"				"100"		
-			"tall"				"42"		
+			"wide"				"0"		
+			"tall"				""		
 			"visible"			"0"
 			"enabled"			"0"
 			
@@ -552,8 +552,8 @@
 			{
 				"xpos"			"9"
 				"ypos"			"2"			
-				"wide"			"65"			
-				"tall"			"42"			
+				"wide"			""			
+				"tall"			""			
 			}	
 						
 			"Teardrop"
@@ -563,8 +563,8 @@
 				"xpos"				"0"
 				"ypos"				"0"
 				"zpos"				"0"
-				"wide"				"34"		
-				"tall"				"41"
+				"wide"				""		
+				"tall"				""
 				"visible"			"1"
 				"enabled"			"1"
 				"scaleImage"		"1"

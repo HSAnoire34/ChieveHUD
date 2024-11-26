@@ -56,7 +56,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"replay/thumbnails/scout1"
-		"inactiveimage"		"class_sel_sm_scout_inactive"
+		"inactiveimage"		"replay/thumbnails/scout0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -80,8 +80,8 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		replay/thumbnails/soldier1
-		"inactiveimage"		"class_sel_sm_soldier_inactive"
+		"activeimage"		"replay/thumbnails/soldier1"
+		"inactiveimage"		"replay/thumbnails/soldier0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -105,8 +105,8 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		replay/thumbnails/pyro1
-		"inactiveimage"		"class_sel_sm_pyro_inactive"
+		"activeimage"		"replay/thumbnails/pyro1"
+		"inactiveimage"		"replay/thumbnails/pyro0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -131,8 +131,8 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		replay/thumbnails/demo1
-		"inactiveimage"		"class_sel_sm_demo_inactive"
+		"activeimage"		"replay/thumbnails/demo1"
+		"inactiveimage"		"replay/thumbnails/demo0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
@@ -156,8 +156,8 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		replay/thumbnails/heavy1
-		"inactiveimage"		"class_sel_sm_heavy_inactive"
+		"activeimage"		"replay/thumbnails/heavy1"
+		"inactiveimage"		"replay/thumbnails/heavy0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -181,8 +181,8 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		replay/thumbnails/engi1
-		"inactiveimage"		"class_sel_sm_engineer_inactive"
+		"activeimage"		"replay/thumbnails/engi1"
+		"inactiveimage"		"replay/thumbnails/engi0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -207,8 +207,8 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		replay/thumbnails/medic1
-		"inactiveimage"		"class_sel_sm_medic_inactive"
+		"activeimage"		"replay/thumbnails/medic1"
+		"inactiveimage"		"replay/thumbnails/medic0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -232,8 +232,8 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		replay/thumbnails/sniper1
-		"inactiveimage"		"class_sel_sm_sniper_inactive"
+		"activeimage"		"replay/thumbnails/sniper1"
+		"inactiveimage"		"replay/thumbnails/sniper0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -257,8 +257,8 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		replay/thumbnails/spy1
-		"inactiveimage"		"class_sel_sm_spy_inactive"
+		"activeimage"		"replay/thumbnails/spy1"
+		"inactiveimage"		"replay/thumbnails/spy0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
@@ -284,7 +284,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"replay/thumbnails/b1"
-		"inactiveimage"		"..\hud\backpack_01_grey"
+		"inactiveimage"		"replay/thumbnails/b0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
@@ -330,7 +330,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"replay/thumbnails/c1"
-		"inactiveimage"		"crafting_anvil_gray"
+		"inactiveimage"		"replay/thumbnails/c0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -375,8 +375,8 @@
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay/thumbnails/cat1"
-		"inactiveimage"		"catalog_book_gray"
+		"activeimage"		"replay/thumbnails/cat0"
+		"inactiveimage"		"replay/thumbnails/cat1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
@@ -422,7 +422,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"replay/thumbnails/t1"
-		"inactiveimage"		"trading_parcel_gray"
+		"inactiveimage"		"replay/thumbnails/t0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
@@ -469,7 +469,7 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		"activeimage"		"replay/thumbnails/p1"
-		"inactiveimage"		"paintkit_tool_bw"
+		"inactiveimage"		"replay/thumbnails/p0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
