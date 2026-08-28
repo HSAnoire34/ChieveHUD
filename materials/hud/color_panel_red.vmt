@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/hud/color_panel_red"
+	"$nolod" 1
+	"$translucent" 1
+}

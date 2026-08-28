@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/hud/cart_neutral"
+	"$nolod" 1
+	"$translucent" 1
+}

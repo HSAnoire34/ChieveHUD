@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/tf2logo"
+	"$nolod" 1
+	"$translucent" 1
+	"Proxies"
+    	{
+        "AnimatedTexture"
+        {
+            "animatedTextureVar"          "$basetexture"
+            "animatedTextureFrameNumVar"   "$frame"
+            "animatedTextureFrameRate"        "50"
+        }
+    	}
+}
