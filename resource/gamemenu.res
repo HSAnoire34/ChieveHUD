@@ -44,23 +44,23 @@
 	}
 	"Console1Button"
 	{
-		"label"			"c"
+		"label"			""
 		"command"		"engine showconsole"
-		"subimage"		""
+		"subimage"		"replay/thumbnails/icon_console"
 		"tooltip"		"Console"
 	}
 	"C0nsoleButton"
 	{
-		"label"			"/"
+		"label"			""
 		"command"		"engine hud_reloadscheme"
-		"subimage"		""
+		"subimage"		"replay/thumbnails/icon_reload"
 		"tooltip"		"Reload HUD"
 	}
 	"DemoUIButton"
 	{
-		"label"			"C"
+		"label"			""
 		"command"		"engine demoui"
-		"subimage"		""
+		"subimage"		"replay/thumbnails/icon_demoui"
 		"tooltip"		"Demo UI"
 	}
 }
