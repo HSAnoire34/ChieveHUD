@@ -8,7 +8,7 @@
 		"ypos"			"-4"
 		"zpos"			"2"
 		"wide"			"78"
-		"tall"			"33"
+		"tall"			"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
@@ -27,7 +27,7 @@
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
-		"ypos"				"5"
+		"ypos"				"10"
 		"zpos"				"4"	
 		"wide"				"20"
 		"tall"				"20"
@@ -49,7 +49,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"16"
-		"ypos"			"25"
+		"ypos"			"28"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -71,8 +71,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"21"
+		"ypos"			"24"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -94,7 +93,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"16"
-		"ypos"			"25"
+		"ypos"			"28"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -116,8 +115,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"21"
+		"ypos"			"24"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -139,7 +137,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"16"
-		"ypos"			"23"
+		"ypos"			"28"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -161,8 +159,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"21"
+		"ypos"			"24"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -184,7 +181,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"16"
-		"ypos"			"25"
+		"ypos"			"29"
 		"zpos"			"5"
 		"wide"			"78"
 		"tall"			"19"
@@ -206,8 +203,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"21"
+		"ypos"			"24"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
@@ -251,7 +247,6 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"21"
 		"zpos"			"1"
 		"wide"			"78"

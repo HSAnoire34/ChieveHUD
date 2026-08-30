@@ -60,7 +60,7 @@
 	{
 		"label"			""
 		"command"		"engine demoui"
-		"subimage"		"replay/thumbnails/icon_demoui"
+		"subimage"		""
 		"tooltip"		"Demo UI"
 	}
 }

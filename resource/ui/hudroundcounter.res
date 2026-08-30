@@ -14,8 +14,8 @@
 
 		"starting_width"	"20"
 		"width_per_round"	"24"
-		"indicator_start_offset"	"4"
-		"indicator_max_wide"	"30"
+		"indicator_start_offset"	"20"
+		"indicator_max_wide"	"20"
 
 		"RoundIndicatorPanel_kv"
 		{
@@ -53,15 +53,19 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"cs-0.5"
-		"ypos"			"-10"
-		"zpos"			"5"
+		"ypos"			"0"
+		"zpos"			"3"
 		"wide"			"0"
 		"tall"			"0"
 
-		"backgroundtype"		"2"
+		"backgroundtype"		"0"
 		"proportionaltoparent"	"1"
 			
-		"image"					"replay/thumbnails/rnb"
+		"image"					"replay/thumbnails/brown"
 		"scaleimage"			"1"
+		"src_corner_height" "23"
+		"src_corner_width" "23"
+		"draw_corner_width" "4"
+		"draw_corner_height" "4"
 	}
 }
