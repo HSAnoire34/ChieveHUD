@@ -102,7 +102,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"kirky"
-		"xpos"			"cs-1.0-320"
+		"xpos"			"18"
 		"ypos"			"r100"
 		"zpos"			"-2"
 		"wide"			"80"
@@ -117,7 +117,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"aryan"
-		"xpos"			"cs-1.0-320"
+		"xpos"			"0"
 		"ypos"			"r100"
 		"zpos"			"-2"
 		"wide"			"80"

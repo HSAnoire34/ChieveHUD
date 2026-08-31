@@ -99,8 +99,6 @@
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -149,8 +147,6 @@
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"tall"			"8"
@@ -190,13 +186,11 @@
 		"LargeBoxWide" "110"
 		"LargeBoxTall" "77"
 		"BoxGap" "4"	[$WIN32]
-		"BoxGap" "4"	[$X360]
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
 		"TextYPos" "70"		[$WIN32]
-		"TextYPos" "65"		[$X360]
 		"ErrorYPos" "48"
 		"TextColor" "SelectionTextFg"
 		"MaxSlots"	"6"
@@ -250,12 +244,11 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"r63"	
+		"xpos"		"c-268"
+		"ypos"		"r140"	
 		"zpos"		"3"
 		"wide"		"400"
 		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
 	}
 
 	"CMainTargetID"
@@ -316,9 +309,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]
+		"ypos"		"15"	[$WIN32]
 		"wide"		"640"
 		"tall"		"480"
 
@@ -495,8 +486,6 @@
 		"enabled" "1"
 		"xpos"	 "r640"	[$WIN32]
 		"ypos"	 "37"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -517,8 +506,6 @@
 
 		"BaseBackgroundColor"	"45 45 45 255"		[$WIN32]
 		"LocalBackgroundColor"	"245 229 193 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
 
 	"HudVehicle"
@@ -612,10 +599,8 @@
 		"enabled"	"1"
 		"xpos"		"c-250"
 		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
 		"wide"		"500"
 		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
 
 		"BgAlpha"	"128"
 
@@ -632,7 +617,6 @@
 		"visible" "0"
 		"enabled" "0"
 		"xpos"	 "r640"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
 		"wide"	 "640"
 		"tall"	 "330"
 		"history_gap" "55"
@@ -762,8 +746,6 @@
 		"enabled" "1"
 		"xpos" "r145" [$WIN32]
 		"ypos" "0" [$WIN32]
-		"xpos" "r210" [$X360]
-		"ypos" "0" [$X360]
 		"wide" "145"
 		"tall" "320"
 
@@ -854,7 +836,6 @@
 		"separator_width"		"5"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
 	}
 
 	"HudCapturePanel"
@@ -1178,7 +1159,6 @@
 		"xpos"					"0"
 		"ypos"					"180"
 		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$X360]
 		"tall"					"100"
 	}
 

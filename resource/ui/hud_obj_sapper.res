@@ -39,15 +39,15 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"24"
-		"ypos"			"1"
-		"wide"			"28"
-		"tall"			"28"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
-		"icon"			"obj_status_sapper"
-		"iconColor"		"255 255 255 255"
+		"icon"			""
+		"iconColor"		""
 	}
 	
 	"NotBuiltPanel"

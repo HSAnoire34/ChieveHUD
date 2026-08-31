@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
+		"xpos"			"15"	[$WIN32]
 		"ypos"			"r75"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"75"
@@ -208,7 +208,7 @@
 			"Spy"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
+				"angles_x"		"-15"
 				"angles_y"		"160"
 				"angles_z"		"0"
 				"origin_x"		"160"
