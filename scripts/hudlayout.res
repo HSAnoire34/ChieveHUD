@@ -309,7 +309,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
-		"ypos"		"15"	[$WIN32]
+		"ypos"		"16"	[$WIN32]
 		"wide"		"640"
 		"tall"		"480"
 
@@ -322,7 +322,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"16"
 		"wide"		"640"
 		"tall"		"480"
 

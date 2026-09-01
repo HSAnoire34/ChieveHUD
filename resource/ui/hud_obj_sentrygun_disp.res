@@ -14,25 +14,12 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	"Background1"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Background1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 50"
-		"paintborder"	"0"
-	}
+	
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"r0"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
@@ -41,10 +28,26 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
-		"paintborder"	"0"
+		"iconColor"		"0 0 0 0"
 	}
-	
+	"BG1"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BG1"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"-3"
+		"wide"			"118"
+		"tall"			"22"
+		"visible"		"1"
+		"teambg_2"		"replay/thumbnails/rcp"
+		"teambg_3"		"replay/thumbnails/bcp"
+		"src_corner_width"	"16"
+		"src_corner_height"	"16"
+		"draw_corner_height"	"3"
+		"draw_corner_width"	"3"
+		"alpha"			"128"
+	}
 	"Icon_Sentry_1"
 	{
 		"ControlName"	"CIconPanel"
@@ -74,8 +77,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"ItemFontAttribSmall"
-			"xpos"			"55"
+			"font"			"DefaultVerySmall"
+			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"20"
@@ -259,7 +262,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"ItemFontAttribSmall"
+				"font"			"DefaultSmall"
 				"xpos"			"12"
 				"ypos"			"6"
 				"wide"			"200"

@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"cs-1.0-172"
+		"xpos"			"c-222"
 		"ypos"			"r22"
 		"zpos"			"-6"
 		"wide"			"50"
@@ -132,5 +132,6 @@
 		"font"					"HudFontMediumSmallBold"
 		"fgcolor_override"		"AchiOrange"
 		"pin_to_sibling"		"ItemEffectMeterCount"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

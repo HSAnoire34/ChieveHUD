@@ -14,38 +14,40 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	"Background1"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Background1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintborder"	"0"
-		"bgcolor_override"		"0 0 0 50"
-	}
-
+	
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"r0"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
+		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
-		"paintborder"	"0"
+		"iconColor"		"0 0 0 0"
 	}
-
+	"BG1"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BG1"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"-3"
+		"wide"			"118"
+		"tall"			"30"
+		"visible"		"1"
+		"teambg_2"		"replay/thumbnails/rcp"
+		"teambg_3"		"replay/thumbnails/bcp"
+		"src_corner_width"	"16"
+		"src_corner_height"	"16"
+		"draw_corner_height"	"3"
+		"draw_corner_width"	"3"
+		"alpha"			"128"
+	}
 	"Icon_Teleport_Entrance"
 	{
 		"ControlName"	"CIconPanel"
@@ -56,11 +58,11 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
+		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_entrance"
 		"iconColor"		"255 255 255 255"
 	}
-
+	
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -75,7 +77,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"HudFontSmallest"
+			"font"			"DefaultVerySmall"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -90,7 +92,7 @@
 			"brighttext"	"0"
 		}
 	}
-
+	
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -112,7 +114,7 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"
+			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"255 255 255 255"
 		}
@@ -128,7 +130,7 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"
+			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"255 255 255 255"
 		}
@@ -144,10 +146,11 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"
+			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
 		}
+
 
 		"AlertTray"
 		{
@@ -158,7 +161,7 @@
 			"wide"			"34"
 			"tall"			"31"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"1"	
 			"icon"			"obj_status_alert_background"
 		}
 
@@ -173,11 +176,11 @@
 			"tall"			"19"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"
+			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
 		}
-
+		
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -189,13 +192,13 @@
 			"tall"			"25"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"
+			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
 		}
 
 		"Health"
-		{
+		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
@@ -226,7 +229,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"HudFontSmallest"
+				"font"			"DefaultSmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -240,16 +243,16 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-
+			
 			"BuildingProgress"
-			{
+			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"
+				"tall"			"8"				
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -259,7 +262,7 @@
 				"brighttext"	"0"
 			}
 		}
-
+	
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -269,7 +272,7 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-
+			
 			"TeleportedIcon"
 			{
 				"ControlName"	"ImagePanel"
@@ -285,7 +288,7 @@
 				"drawcolor"		"ProgressOffWhite"
 				"scaleImage"	"1"
 			}
-
+			
 			"ChargingPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -295,9 +298,9 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-
+				
 				"Recharge"
-				{
+				{	
 					"ControlName"	"ContinuousProgressBar"
 					"fieldName"		"Recharge"
 					"font"			"Default"
@@ -312,9 +315,9 @@
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"
-				}
+				}	
 			}
-
+			
 			"FullyChargedPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -324,9 +327,9 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-
+				
 				"TimesUsedLabel"
-				{
+				{	
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
 					"font"			"DefaultSmall"
@@ -343,8 +346,8 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
-			}
-
+			}	
+			
 			"UpgradeIcon"
 			{
 				"ControlName"	"CIconPanel"
@@ -356,13 +359,13 @@
 				"tall"			"10"
 				"visible"		"1"
 				"enabled"		"1"
-				"scaleImage"	"1"
+				"scaleImage"	"1"	
 				"icon"			"ico_metal"
 				"iconColor"		"ProgressOffWhite"
 			}
-
+			
 			"Upgrade"
-			{
+			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"

@@ -1,6 +1,8 @@
 "UnlitGeneric"
 {
 	"$basetexture" "vgui/replay/thumbnails/rcp"
-	"$nolod" 1
+	"$vertexalpha" 1
 	"$translucent" 1
+	"$additive" 1
+
 }

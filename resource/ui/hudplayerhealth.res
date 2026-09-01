@@ -117,7 +117,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"aryan"
-		"xpos"			"0"
+		"xpos"			"18"
 		"ypos"			"r100"
 		"zpos"			"-2"
 		"wide"			"80"

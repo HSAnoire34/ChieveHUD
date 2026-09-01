@@ -21,8 +21,8 @@
 	}
 	"ItemEffectMeterLabel"
 	{
-		"tall" "50"
-		"ypos" "6"
+		"tall" "0"
+		"ypos" "r-100"
 		"zpos"	"10"
 		"font"	"HudFontMediumSmallBold"
 	}
