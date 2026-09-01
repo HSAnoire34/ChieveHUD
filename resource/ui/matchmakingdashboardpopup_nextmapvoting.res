@@ -49,7 +49,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"TFFatLineBorder"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"2"
 

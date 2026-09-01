@@ -31,7 +31,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"border"		"OuterShadowBorder"
+			"border"		"noborder"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"0"
@@ -49,7 +49,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"TFFatLineBorder"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"
 

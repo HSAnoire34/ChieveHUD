@@ -81,7 +81,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"TFFatLineBorder"
 				"proportionaltoparent"	"1"
 			}
 
@@ -313,7 +313,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"TFFatLineBorder"
 				"proportionaltoparent"	"1"
 			}
 
@@ -424,7 +424,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"TFFatLineBorder"
 				"proportionaltoparent"	"1"
 			}
 
@@ -537,7 +537,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"TFFatLineBorder"
 				"proportionaltoparent"	"1"
 			}
 
@@ -667,7 +667,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"TFFatLineBorder"
 				"proportionaltoparent"	"1"
 			}
 
