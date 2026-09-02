@@ -38,7 +38,7 @@
 		"ypos"			"2"
 		"zpos"			"-3"
 		"wide"			"118"
-		"tall"			"30"
+		"tall"			"29"
 		"visible"		"1"
 		"teambg_2"		"replay/thumbnails/rcp"
 		"teambg_3"		"replay/thumbnails/bcp"

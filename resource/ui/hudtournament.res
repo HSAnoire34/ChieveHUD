@@ -11,7 +11,7 @@
 		"tall"					"480"
 		"proportionaltoparent"	"1"
 
-		"team1_player_base_offset_x"		"-75"
+		"team1_player_base_offset_x"		"-90"
 		"team1_player_base_y"				"0"
 		"team1_player_delta_x"				"-47"
 		"team1_player_delta_y"				"0"
@@ -23,7 +23,7 @@
 		"image"			"../vgui/replay/thumbnails/brown"
 
 		"avatar_width"	"63"
-		"spacer"		"5"
+		"spacer"		"8"
 		"name_width"	"57"
 		"horiz_inset"	"2"
 
@@ -36,7 +36,7 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"57"
 		}
 
 		if_competitive
@@ -48,7 +48,7 @@
 
 			"team1_player_base_y"			"75"
 			"team2_player_base_y"			"66"
-			"team2_player_base_offset_x"	"5"
+			"team2_player_base_offset_x"	"7"
 		}
 
 		if_readymode
@@ -61,7 +61,7 @@
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
 			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
+			"team2_player_base_offset_x"	"7"
 		}
 
 		"ModeImage"
