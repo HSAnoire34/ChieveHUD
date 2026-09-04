@@ -325,7 +325,7 @@
 			"font"			"HudFontMediumSmall"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
-			"ypos"			"0"
+			"ypos"			"5"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"31"
